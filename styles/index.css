@@ -12,6 +12,14 @@ li {
   display: inline;
 }
 
+img {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-left: 2%;
+  margin-top: -1%;
+}
+
 nav a {
   padding: 20px;
   color: #0a3641;
@@ -21,7 +29,8 @@ nav a {
 
 nav {
   text-align: right;
-  margin-right: 5%;
+  margin-right: 2%;
+  margin-top: 2%;
 }
 
 main {
@@ -44,7 +53,7 @@ footer {
   bottom: 0;
   position: fixed;
   width: 100%;
-  text-align: center;
+  color: #ffffff;
 }
 
 button {
