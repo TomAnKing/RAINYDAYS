@@ -1,3 +1,6 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 img {
   max-width: 600px;
   float: left;
@@ -15,4 +18,41 @@ nav a {
 
 .current {
   font-weight: bold;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-left: 2%;
+  margin-top: -1%;
+}
+
+li {
+  display: inline;
+}
+
+.current {
+  font-weight: bold;
+}
+
+nav a {
+  padding: 20px;
+  color: #0a3641;
+  font-size: 37px;
+  text-decoration: none;
+}
+
+nav {
+  text-align: right;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff8f23;
+  margin-top: 10%;
 }

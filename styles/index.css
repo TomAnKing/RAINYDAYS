@@ -8,16 +8,20 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-li {
-  display: inline;
-}
-
 img {
   height: 150px;
   width: auto;
   float: left;
   margin-left: 2%;
   margin-top: -1%;
+}
+
+li {
+  display: inline;
+}
+
+.current {
+  font-weight: bold;
 }
 
 nav a {
@@ -35,10 +39,6 @@ nav {
 
 main {
   text-align: center;
-}
-
-.current {
-  font-weight: bold;
 }
 
 h1 {
@@ -61,7 +61,7 @@ button {
   margin-top: 1%;
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   color: #ffffff;
   padding: 15px 32px;
   text-align: center;
