@@ -5,4 +5,64 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  display: inline;
+}
+
+nav a {
+  padding: 20px;
+  color: #0a3641;
+  font-size: 37px;
+  text-decoration: none;
+}
+
+nav {
+  text-align: right;
+  margin-right: 5%;
+}
+
+main {
+  text-align: center;
+}
+
+.current {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 12%;
+  color: #0a3641;
+  font-size: 58px;
+  font-weight: normal;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: #0a3641;
+  margin-top: 1%;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 54px;
+  opacity: 0.8;
+  width: 7em;
+  border-radius: 50px;
+}
+button:hover {
+  cursor: pointer;
 }

@@ -4,3 +4,15 @@ img {
   margin-right: 200px;
   margin-left: 200px;
 }
+
+li {
+  display: inline;
+}
+
+nav a {
+  padding: 20px;
+}
+
+.current {
+  font-weight: bold;
+}
