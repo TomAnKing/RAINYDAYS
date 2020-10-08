@@ -1,12 +1,6 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-img {
-  max-width: 600px;
-  float: left;
-  margin-right: 200px;
-  margin-left: 200px;
-}
 
 li {
   display: inline;
@@ -26,6 +20,7 @@ img {
   float: left;
   margin-left: 2%;
   margin-top: -1%;
+  position: fixed;
 }
 
 li {
@@ -50,9 +45,35 @@ nav {
 }
 
 h1 {
-  font-size: 58px;
+  font-size: 80px;
   font-weight: bold;
   text-align: center;
   color: #ff8f23;
-  margin-top: 10%;
+  margin-top: 5%;
+}
+
+#hiking {
+  width: 500px;
+  height: auto;
+  float: left;
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-top: 3%;
+}
+
+p {
+  font-size: 30px;
+  color: #0a3641;
+  float: right;
+  width: 500px;
+  margin-right: 350px;
+  margin-right: 600px;
+  margin-top: 3%;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: #0a3641;
 }

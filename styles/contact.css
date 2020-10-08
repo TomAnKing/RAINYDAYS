@@ -1,4 +1,8 @@
-html li {
+html main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i {
   display: inline;
 }
 
@@ -30,10 +34,6 @@ img {
   margin-top: -1%;
 }
 
-li {
-  display: inline;
-}
-
 .current {
   font-weight: bold;
 }
@@ -43,10 +43,50 @@ nav a {
   color: #0a3641;
   font-size: 37px;
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
   text-align: right;
   margin-right: 2%;
   margin-top: 2%;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #ff8f23;
+  margin-top: 5%;
+}
+
+h2 {
+  font-size: 37px;
+  font-weight: normal;
+  color: #0a3641;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: normal;
+  color: #0a3641;
+  margin-top: 5%;
+}
+
+p {
+  font-size: 31px;
+  color: #ff8f23;
+  font-style: italic;
+  text-align: left;
+  margin-left: 40%;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: #0a3641;
 }
