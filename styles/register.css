@@ -38,6 +38,22 @@ input[type="email"] {
   margin-top: 10px;
 }
 
+label[for="sir name"] {
+  font-size: 20px;
+  color: #0a3641;
+  font-weight: bold;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+
+label[for="first name"] {
+  font-size: 20px;
+  color: #0a3641;
+  font-weight: bold;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+
 input[type="password"] {
   padding: 15px;
   width: 35%;

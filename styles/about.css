@@ -52,21 +52,26 @@ h1 {
   margin-top: 5%;
 }
 
+#aboutText {
+  margin-right: 17%;
+  margin-top: 1%;
+  width: 470px;
+  display: block;
+  float: right;
+}
+
 #hiking {
   width: 500px;
   height: auto;
   float: right;
-  margin-left: 15%;
+  margin-left: 17%;
   margin-top: 2%;
 }
 
 p {
   display: block;
-  width: 30%;
   font-size: 30px;
   color: #0a3641;
-  margin-left: 50%;
-  margin-top: 5%;
 }
 
 footer {
