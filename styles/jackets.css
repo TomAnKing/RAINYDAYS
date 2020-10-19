@@ -1,0 +1,44 @@
+html main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-left: 2%;
+  margin-top: -1%;
+}
+
+li {
+  display: inline;
+}
+
+nav a {
+  padding: 20px;
+  color: #0a3641;
+  font-size: 37px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  text-align: right;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff8f23;
+  margin-top: 5%;
+  text-align: center;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: #0a3641;
+}
