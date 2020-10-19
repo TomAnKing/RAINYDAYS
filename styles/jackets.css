@@ -29,11 +29,21 @@ nav {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;
   color: #ff8f23;
   margin-top: 5%;
   text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.product {
+  flex: 1;
+  padding: 60px;
+  margin: 50px;
 }
 
 footer {
