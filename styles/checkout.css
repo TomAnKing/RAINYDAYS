@@ -1,0 +1,67 @@
+html main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-left: 2%;
+  margin-top: -1%;
+}
+
+li {
+  display: inline;
+}
+
+nav a {
+  padding: 20px;
+  color: #0a3641;
+  font-size: 37px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  text-align: right;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#checkout {
+  margin-top: -10%;
+  margin-left: 46%;
+  position: absolute;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20%;
+  font-weight: normal;
+  color: #0a3641;
+  font-size: 37px;
+}
+
+button {
+  background-color: #0a3641;
+  margin-top: 3%;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 37px;
+  width: 13em;
+  border-radius: 50px;
+  margin-left: 37%;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: #0a3641;
+}
