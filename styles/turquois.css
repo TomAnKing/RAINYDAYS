@@ -28,11 +28,71 @@ nav {
   margin-top: 2%;
 }
 
+#product {
+  width: 20%;
+  height: auto;
+  margin-top: 6%;
+  margin-left: -16%;
+}
+
+#backbutton {
+  margin-top: 0%;
+  float: left;
+  margin-left: 3%;
+  color: #0a3641;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff8f23;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 7%;
+  margin-left: 45%;
+  color: #0a3641;
+  font-size: 32px;
+}
+
 .square {
   height: 20px;
   width: 20px;
   background-color: #95bac2;
   display: inline;
+}
+
+#info {
+  margin-left: 45%;
+  margin-top: 4%;
+  font-size: 25px;
+  color: #0a3641;
+}
+
+span {
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff8f23;
+  margin-top: 4%;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 18px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 54px;
+  width: 9em;
+  border-radius: 50px;
+  margin-left: 15%;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 footer {
