@@ -27,14 +27,14 @@ h1 {
 input[type="text"] {
   padding: 15px;
   width: 35%;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 10px;
 }
 
 input[type="email"] {
   padding: 15px;
   width: 35%;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 10px;
 }
 
@@ -42,7 +42,7 @@ label[for="sir name"] {
   font-size: 20px;
   color: #0a3641;
   font-weight: bold;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 30px;
 }
 
@@ -50,14 +50,14 @@ label[for="first name"] {
   font-size: 20px;
   color: #0a3641;
   font-weight: bold;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 30px;
 }
 
 input[type="password"] {
   padding: 15px;
   width: 35%;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 10px;
 }
 
@@ -65,7 +65,7 @@ label[for="email"] {
   font-size: 20px;
   color: #0a3641;
   font-weight: bold;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 30px;
 }
 
@@ -73,5 +73,32 @@ label[for="password"] {
   font-size: 20px;
   color: #0a3641;
   font-weight: bold;
-  margin-left: 30%;
+  margin-left: 32%;
+}
+
+button {
+  margin-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ff8f23;
+  padding: 18px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 54px;
+  width: 7em;
+  border-radius: 60px;
+  margin-left: 40%;
+  border-color: #ff8f23;
+  border-width: 6px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: #0a3641;
 }
