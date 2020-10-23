@@ -1,0 +1,21 @@
+html main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin-left: 2%;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: #0a3641;
+}
+
+body {
+  display: grid;
+}

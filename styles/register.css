@@ -90,6 +90,7 @@ button {
   margin-left: 40%;
   border-color: #ff8f23;
   border-width: 6px;
+  border-style: solid;
 }
 
 button:hover {
