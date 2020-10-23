@@ -60,7 +60,7 @@ label[for="password"] {
   margin-left: 32%;
 }
 
-button {
+.btn {
   background-color: #ff8f23;
   margin-top: 2%;
   border: none;
@@ -74,6 +74,24 @@ button {
   width: 7em;
   border-radius: 50px;
   margin-left: 40%;
+}
+
+.btn2 {
+  background-color: #ffffff;
+  margin-top: 2%;
+  border-color: #ff8f23;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ff8f23;
+  padding: 18px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 54px;
+  width: 7em;
+  border-radius: 60px;
+  margin-left: 40%;
+  border-width: 6px;
+  border-style: solid;
 }
 
 button:hover {
