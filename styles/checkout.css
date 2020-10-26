@@ -10,24 +10,6 @@ img {
   margin-top: -1%;
 }
 
-li {
-  display: inline;
-}
-
-nav a {
-  padding: 20px;
-  color: #0a3641;
-  font-size: 37px;
-  text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav {
-  text-align: right;
-  margin-right: 2%;
-  margin-top: 2%;
-}
-
 #checkout {
   width: 8%;
   height: auto;
@@ -64,9 +46,22 @@ button:hover {
   cursor: pointer;
 }
 
-footer {
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  color: #0a3641;
+@media screen and (min-width: 200px) and (max-width: 1250px) {
+ 
+
+  .btn {
+    background-color: #0a3641;
+  margin-top: 20%;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 18px;
+  width: 50%;
+  border-radius: 50px;
+  margin-left: 25%;
 }
