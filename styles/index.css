@@ -8,35 +8,6 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#logo {
-  height: 150px;
-  width: auto;
-  float: left;
-  margin-left: 2%;
-  margin-top: -1%;
-}
-
-li {
-  display: inline;
-}
-
-.current {
-  font-weight: bold;
-}
-
-nav a {
-  padding: 20px;
-  color: #0a3641;
-  font-size: 37px;
-  text-decoration: none;
-}
-
-nav {
-  text-align: right;
-  margin-right: 2%;
-  margin-top: 2%;
-}
-
 main {
   text-align: center;
 }
@@ -70,25 +41,7 @@ button:hover {
   cursor: pointer;
 }
 
-footer {
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  color: #ffffff;
-}
-
 @media screen and (min-width: 200px) and (max-width: 1250px) {
-  #logo {
-    height: auto;
-    width: 25%;
-    position: relative;
-  }
-
-  nav a {
-    font-size: 20px;
-    padding: 5px;
-  }
-
   h1 {
     text-align: center;
     margin-top: 30%;

@@ -2,33 +2,6 @@ html main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
-  height: 150px;
-  width: auto;
-  float: left;
-  margin-left: 2%;
-  margin-top: -1%;
-}
-
-li {
-  display: inline;
-}
-
-nav a {
-  padding: 20px;
-  color: #0a3641;
-  font-size: 37px;
-  text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: normal;
-}
-
-nav {
-  text-align: right;
-  margin-right: 2%;
-  margin-top: 2%;
-}
-
 #product {
   width: 20%;
   height: auto;
@@ -48,7 +21,6 @@ nav {
 a {
   text-decoration: none;
   color: #ff8f23;
-  font-weight: bold;
 }
 
 h1 {
@@ -56,13 +28,6 @@ h1 {
   margin-left: 45%;
   color: #0a3641;
   font-size: 32px;
-}
-
-.square {
-  height: 20px;
-  width: 20px;
-  background-color: #95bac2;
-  display: inline;
 }
 
 #info {
@@ -94,11 +59,4 @@ button {
 
 button:hover {
   cursor: pointer;
-}
-
-footer {
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  color: #0a3641;
 }
