@@ -6,41 +6,16 @@
   margin-right: 15%;
   grid-column-gap: 10%;
 }
-
-@media screen and (min-width: 200px) and (max-width: 1200px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .product p {
-    font-size: 20px;
-  }
-
-  body h1 {
-    font-size: 60px;
-  }
-
-  #logo {
-    height: auto;
-    width: 25%;
-  }
-
-  body li a {
-    font-size: 20px;
-  }
-}
-
-html main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-img {
+#logo {
   height: 150px;
   width: auto;
   float: left;
   margin-left: 2%;
   margin-top: -1%;
+}
+
+html main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 li {
@@ -90,4 +65,34 @@ h1 {
 .product img:hover {
   width: 100%;
   opacity: 0.9;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0%;
+    margin-right: 0%;
+    grid-column-gap: 0%;
+  }
+
+  .product p {
+    font-size: 20px;
+  }
+
+  body h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #logo {
+    height: auto;
+    width: 25%;
+  }
+
+  nav a {
+    font-size: 20px;
+    padding: 5px;
+  }
 }

@@ -1,3 +1,11 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20%;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -14,7 +22,7 @@ nav a {
   font-weight: bold;
 }
 
-img {
+#logo {
   height: 150px;
   width: auto;
   float: left;
@@ -53,30 +61,49 @@ h1 {
 }
 
 #aboutText {
-  margin-right: 19%;
-  margin-top: 1%;
-  width: 470px;
-  display: block;
-  float: right;
+  width: 100%;
 }
 
 #hiking {
-  width: 500px;
+  width: 100%;
   height: auto;
-  float: right;
-  margin-left: 17%;
-  margin-top: 2%;
 }
 
 p {
-  display: block;
   font-size: 30px;
   color: #0a3641;
+  margin-top: 0;
 }
 
-footer {
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  color: #0a3641;
+@media screen and (min-width: 200px) and (max-width: 1250px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0%;
+    margin-right: 0%;
+    grid-column-gap: 0%;
+  }
+
+  body h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #logo {
+    height: auto;
+    width: 25%;
+    position: relative;
+  }
+
+  p {
+    font-size: 20px;
+    color: #0a3641;
+    margin-top: 0;
+  }
+
+  nav a {
+    font-size: 20px;
+    padding: 5px;
+  }
 }
