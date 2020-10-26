@@ -1,3 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+  margin-left: 15%;
+  margin-right: 15%;
+  grid-column-gap: 10%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .product p {
+    font-size: 20px;
+  }
+
+  body h1 {
+    font-size: 60px;
+  }
+
+  #logo {
+    height: auto;
+    width: 25%;
+  }
+
+  body li a {
+    font-size: 20px;
+  }
+}
+
 html main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -36,20 +69,15 @@ h1 {
   text-align: center;
 }
 
-#product-box {
-  width: 100%;
-}
-
 .price {
   float: right;
   text-align: right;
 }
 
 .product {
-  width: 20%;
+  width: 100%;
   float: left;
   display: block;
-  margin-left: 10%;
   font-size: 26px;
   color: #0a3641;
 }
@@ -62,11 +90,4 @@ h1 {
 .product img:hover {
   width: 100%;
   opacity: 0.9;
-}
-
-footer {
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  color: #0a3641;
 }
