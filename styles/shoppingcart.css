@@ -15,6 +15,8 @@ img {
   grid-column-gap: 5%;
   float: left;
   margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .grid-item-1 {
@@ -24,6 +26,8 @@ img {
   font-size: 38px;
   font-weight: bold;
   height: 80px;
+  padding-top: 2%;
+  padding-left: 5%;
 }
 
 .grid-item-2 {
@@ -32,31 +36,30 @@ img {
   border: solid 1px #000000;
   font-size: 38px;
   font-weight: bold;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
 .grid-item-3 {
   border: solid 1px #000000;
-  padding: 5%;
+  padding: 3%;
 }
 
 .grid-item-4 {
   color: #0a3641;
   font-size: 27px;
   border: solid 1px #000000;
-  padding: 5%;
 }
 
 .grid-item-6 {
   color: #0a3641;
   font-size: 30px;
-  border: solid 1px #000000;
-  padding: 5%;
+  border-bottom: solid 1px #000000;
+  border-top: solid 1px #000000;
   font-weight: bold;
-  width: 100%;
 }
 
 .grid-item-8 {
-  border: solid 1px #000000;
   text-align: center;
   padding: 13%;
 }
@@ -64,6 +67,11 @@ img {
 .price {
   text-align: right;
   float: right;
+  margin-right: 3%;
+}
+
+.priceInfo {
+  margin-left: 3%;
 }
 
 button {
@@ -78,7 +86,7 @@ button {
   text-decoration: none !important;
   display: inline-block;
   font-size: 40px;
-  width: 10em;
+  width: 100%;
   border-radius: 50px;
 }
 
@@ -94,6 +102,8 @@ button:hover {
 
 #info {
   float: right;
+  font-size: 30px;
+  color: #0a3641;
 }
 
 footer {
