@@ -12,64 +12,96 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100;
   grid-column-gap: 5%;
   float: left;
   margin-top: 3%;
   margin-left: 5%;
   margin-right: 5%;
 }
-@media (min-width: 400px) and (max-width: 1200px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 150px;
-    background-color: black;
     height: 150px;
+    row-gap: 15%;
+  }
+
+  .grid-item-1 p {
+    font-size: 20px;
+    margin-left: 2%;
+  }
+
+  #subTotal p {
+    color: #0a3641;
+    font-size: 20px;
+  }
+  #total p {
+    color: #0a3641;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .btn {
+    background-color: #0a3641;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 25px 32px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 50px;
+  }
+
+  img {
+    height: auto;
+    width: 25%;
   }
 }
 
 .grid-item-1 {
-  background-color: #ff8f23;
-  color: #ffffff;
   border: solid 1px #000000;
-  font-size: 38px;
-  font-weight: bold;
-  height: 80px;
-  padding-top: 2%;
-  padding-left: 5%;
 }
 
 .grid-item-2 {
-  background-color: #ff8f23;
   color: #ffffff;
-  border: solid 1px #000000;
   font-size: 38px;
   font-weight: bold;
-  padding-top: 5%;
-  padding-left: 5%;
-}
-
-.grid-item-3 {
   border: solid 1px #000000;
-  padding: 3%;
 }
 
-.grid-item-4 {
+#cartInfo {
+  margin-right: 8%;
+  margin-top: 2%;
+}
+
+.header {
+  background-color: #ff8f23;
+  border-bottom: solid 1px #000000;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#subTotal {
   color: #0a3641;
   font-size: 27px;
-  border: solid 1px #000000;
 }
 
-.grid-item-6 {
+#total {
   color: #0a3641;
   font-size: 30px;
-  border-bottom: solid 1px #000000;
   border-top: solid 1px #000000;
   font-weight: bold;
 }
 
-.grid-item-8 {
+#ordrBtn {
   text-align: center;
+  border-top: solid 1px #000000;
   padding: 13%;
 }
 
@@ -85,15 +117,11 @@ img {
 
 button {
   background-color: #0a3641;
-  margin-top: 1%;
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   color: #ffffff;
   padding: 25px 32px;
-  text-align: center;
-  text-decoration: none !important;
-  display: inline-block;
   font-size: 40px;
   width: 100%;
   border-radius: 50px;
