@@ -24,6 +24,7 @@ h2 {
   font-weight: normal;
   color: #0a3641;
   text-align: center;
+  margin-top: 5%;
 }
 
 .form__input {
@@ -68,12 +69,13 @@ label[for="password"] {
   font-weight: bold;
   color: #ffffff;
   padding: 18px 32px;
-  text-align: center;
-  display: inline-block;
   font-size: 54px;
   width: 7em;
   border-radius: 50px;
-  margin-left: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  display: block;
 }
 
 .btn2 {
@@ -84,14 +86,21 @@ label[for="password"] {
   font-weight: bold;
   color: #ff8f23;
   padding: 18px 32px;
-  text-align: center;
-  display: inline-block;
   font-size: 54px;
   width: 7em;
   border-radius: 60px;
   margin-left: 40%;
   border-width: 6px;
   border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  display: block;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 button:hover {
@@ -114,7 +123,6 @@ p {
 
   h1 {
     text-align: center;
-    margin-top: 30%;
     color: #0a3641;
     font-size: 40px;
     font-weight: bold;
@@ -138,7 +146,10 @@ p {
     font-size: 25px;
     width: 9em;
     border-radius: 50px;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
   }
 
   .btn2 {
@@ -156,6 +167,10 @@ p {
     margin-left: 40%;
     border-width: 6px;
     border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
   }
 
   p {

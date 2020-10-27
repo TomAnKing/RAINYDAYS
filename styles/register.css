@@ -82,24 +82,57 @@ button {
   font-weight: bold;
   color: #ff8f23;
   padding: 18px 32px;
-  text-align: center;
-  display: inline-block;
   font-size: 54px;
-  width: 7em;
   border-radius: 60px;
-  margin-left: 40%;
   border-color: #ff8f23;
   border-width: 6px;
   border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  display: block;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 button:hover {
   cursor: pointer;
 }
 
-footer {
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  color: #0a3641;
+@media screen and (min-width: 200px) and (max-width: 1250px) {
+  img {
+    height: auto;
+    width: 25%;
+    position: absolute;
+  }
+
+  h1 {
+    text-align: center;
+    color: #0a3641;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  button {
+    background-color: #ffffff;
+    margin-top: 2%;
+    border-color: #ff8f23;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ff8f23;
+    padding: 18px 32px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 60px;
+    margin-left: 40%;
+    border-width: 6px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+  }
 }

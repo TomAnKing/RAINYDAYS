@@ -48,6 +48,7 @@
   #logo {
     height: auto;
     width: 25%;
+    position: relative;
   }
 }
 

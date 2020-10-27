@@ -71,6 +71,10 @@ button:hover {
   cursor: pointer;
 }
 
+.btn2 {
+  background-color: #545454;
+}
+
 @media screen and (min-width: 200px) and (max-width: 1200px) {
   .grid-container {
     display: grid;
