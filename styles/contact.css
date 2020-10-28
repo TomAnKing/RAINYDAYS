@@ -10,7 +10,7 @@ h1 {
   font-size: 80px;
   font-weight: bold;
   color: #ff8f23;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 h2 {
@@ -30,8 +30,7 @@ h3 {
   font-size: 31px;
   color: #ff8f23;
   font-style: italic;
-  text-align: left;
-  margin-left: 40%;
+  text-align: center;
 }
 
 @media screen and (min-width: 200px) and (max-width: 1250px) {
@@ -39,6 +38,7 @@ h3 {
     margin-top: 80px;
     font-size: 40px;
     text-align: center;
+    margin-top: 11%;
   }
 
   h2 {

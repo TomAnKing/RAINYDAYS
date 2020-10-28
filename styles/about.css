@@ -15,7 +15,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: #ff8f23;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 #aboutText {
@@ -46,6 +46,7 @@ p {
     margin-top: 50px;
     font-size: 40px;
     text-align: center;
+    margin-top: 11%;
   }
 
   #logo {

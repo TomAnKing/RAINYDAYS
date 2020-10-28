@@ -86,7 +86,7 @@ label[for="password"] {
   font-weight: bold;
   color: #ff8f23;
   padding: 18px 32px;
-  font-size: 54px;
+  font-size: 40px;
   width: 7em;
   border-radius: 60px;
   margin-left: 40%;
@@ -96,11 +96,11 @@ label[for="password"] {
   margin-right: auto;
   width: 20%;
   display: block;
-  text-decoration: none;
 }
 
 a {
   text-decoration: none;
+  text-align: center;
 }
 
 button:hover {

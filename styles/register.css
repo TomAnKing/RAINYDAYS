@@ -82,7 +82,7 @@ button {
   font-weight: bold;
   color: #ff8f23;
   padding: 18px 32px;
-  font-size: 54px;
+  font-size: 40px;
   border-radius: 60px;
   border-color: #ff8f23;
   border-width: 6px;
@@ -91,11 +91,11 @@ button {
   margin-right: auto;
   width: 20%;
   display: block;
-  text-decoration: none;
 }
 
 a {
   text-decoration: none;
+  text-align: center;
 }
 
 button:hover {
