@@ -141,11 +141,10 @@ p {
     color: #ffffff;
     padding: 18px 32px;
     font-size: 25px;
-    width: 9em;
     border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 60%;
     display: block;
   }
 
@@ -158,15 +157,14 @@ p {
     color: #ff8f23;
     padding: 18px 32px;
     text-align: center;
-    font-size: 25px;
-    width: 9em;
+    font-size: 22px;
     border-radius: 60px;
     margin-left: 40%;
     border-width: 6px;
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 60%;
     display: block;
   }
 
