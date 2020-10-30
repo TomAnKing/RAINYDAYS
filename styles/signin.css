@@ -84,7 +84,7 @@ label[for="password"] {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   color: #ff8f23;
-  padding: 18px 32px;
+  padding: 18px 32px 18px 32px;
   font-size: 40px;
   width: 9em;
   border-radius: 60px;
