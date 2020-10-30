@@ -74,7 +74,6 @@ label[for="password"] {
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
   display: block;
 }
 
@@ -94,7 +93,6 @@ label[for="password"] {
   border-style: solid;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
   display: block;
 }
 
