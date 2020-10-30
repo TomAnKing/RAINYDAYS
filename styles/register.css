@@ -82,7 +82,7 @@ button {
   font-weight: bold;
   color: #ff8f23;
   padding: 18px 32px;
-  font-size: 40px;
+  font-size: 35px;
   border-radius: 60px;
   border-color: #ff8f23;
   border-width: 6px;
@@ -90,7 +90,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 9em;
+  width: 10em;
 }
 
 a {
