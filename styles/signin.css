@@ -70,7 +70,7 @@ label[for="password"] {
   color: #ffffff;
   padding: 18px 32px;
   font-size: 54px;
-  width: 7em;
+  width: 9em;
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -86,9 +86,8 @@ label[for="password"] {
   color: #ff8f23;
   padding: 18px 32px;
   font-size: 40px;
-  width: 7em;
+  width: 9em;
   border-radius: 60px;
-  margin-left: 40%;
   border-width: 6px;
   border-style: solid;
   margin-left: auto;
