@@ -6,6 +6,12 @@
   margin-top: -1%;
 }
 
+#logoLogin {
+  height: 150px;
+  width: auto;
+  margin-left: 2%;
+}
+
 li {
   display: inline;
 }
@@ -32,7 +38,11 @@ nav {
   #logo {
     height: auto;
     width: 25%;
-    position: relative;
+  }
+
+  #logoLogin {
+    height: auto;
+    width: 25%;
   }
 
   nav a {

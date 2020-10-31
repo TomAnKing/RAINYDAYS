@@ -2,20 +2,10 @@ html main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
-  height: 150px;
-  width: auto;
-  float: left;
-  margin-left: 2%;
-  margin-top: -4%;
-  position: absolute;
-}
-
 h1 {
   font-size: 80px;
   font-weight: bold;
   color: #0a3641;
-  margin-top: 5%;
   text-align: center;
 }
 
@@ -103,12 +93,6 @@ button:hover {
 }
 
 @media screen and (min-width: 200px) and (max-width: 1250px) {
-  img {
-    height: auto;
-    width: 25%;
-    position: absolute;
-  }
-
   h1 {
     text-align: center;
     color: #0a3641;

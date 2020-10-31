@@ -56,13 +56,6 @@ html main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#logo {
-  height: auto;
-  width: 15%;
-  float: left;
-  margin-left: 2%;
-}
-
 .grid-item-1 {
   border: solid 1px #000000;
 }
