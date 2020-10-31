@@ -1,10 +1,5 @@
-html main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 h1 {
   font-size: 80px;
-  font-weight: bold;
   color: #0a3641;
   text-align: center;
 }
@@ -18,7 +13,6 @@ h2 {
 }
 
 .form__input {
-  display: block;
   color: #0a3641;
 }
 
@@ -87,7 +81,6 @@ label[for="password"] {
 
 a {
   text-decoration: none;
-  text-align: center;
 }
 
 button:hover {
@@ -103,23 +96,15 @@ p {
 
 @media screen and (min-width: 200px) and (max-width: 1250px) {
   h1 {
-    text-align: center;
-    color: #0a3641;
     font-size: 40px;
-    font-weight: bold;
   }
 
   h2 {
     font-size: 20px;
-    font-weight: normal;
-    color: #0a3641;
-    text-align: center;
   }
 
   p {
-    text-align: center;
     font-size: 20px;
-    color: #0a3641;
     margin-top: 4%;
   }
 
@@ -128,38 +113,14 @@ p {
   }
 
   .btn {
-    background-color: #ff8f23;
     margin-top: 4%;
-    border: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 18px 32px;
     font-size: 25px;
-    border-radius: 50px;
-    margin-left: auto;
-    margin-right: auto;
     width: 60%;
-    display: block;
   }
 
   .btn2 {
-    background-color: #ffffff;
-    margin-top: 2%;
-    border-color: #ff8f23;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: #ff8f23;
-    padding: 18px 32px;
     text-align: center;
     font-size: 22px;
-    border-radius: 60px;
-    margin-left: 40%;
-    border-width: 6px;
-    border-style: solid;
-    margin-left: auto;
-    margin-right: auto;
     width: 60%;
-    display: block;
   }
 }

@@ -1,4 +1,4 @@
-.grid-container {
+.gridContainer {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 100;
@@ -9,58 +9,11 @@
   margin-right: 5%;
 }
 
-/* ------------------ Phone size --------------------------------- */
-@media screen and (min-width: 200px) and (max-width: 1200px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    height: 150px;
-    row-gap: 15%;
-  }
-
-  .grid-item-1 p {
-    font-size: 20px;
-    margin-left: 2%;
-  }
-
-  #subTotal p {
-    color: #0a3641;
-    font-size: 20px;
-  }
-  #total p {
-    color: #0a3641;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .btn {
-    background-color: #0a3641;
-    border: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 25px 32px;
-    font-size: 20px;
-    width: 100%;
-    border-radius: 50px;
-  }
-
-  #logo {
-    height: auto;
-    width: 25%;
-    position: relative;
-  }
-}
-
-html main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.grid-item-1 {
+.gridLeft {
   border: solid 1px #000000;
 }
 
-.grid-item-2 {
+.gridRight {
   color: #ffffff;
   font-size: 38px;
   font-weight: bold;
@@ -69,7 +22,6 @@ html main {
 
 #cartInfo {
   margin-right: 8%;
-  margin-top: 2%;
 }
 
 .header {
@@ -92,7 +44,6 @@ html main {
   color: #0a3641;
   font-size: 30px;
   border-top: solid 1px #000000;
-  font-weight: bold;
 }
 
 #ordrBtn {
@@ -102,7 +53,6 @@ html main {
 }
 
 .price {
-  text-align: right;
   float: right;
   margin-right: 3%;
 }
@@ -131,10 +81,37 @@ button:hover {
   width: 30%;
   height: auto;
   text-align: left;
+  margin-top: 1.8%;
+  margin-left: 1.8%;
 }
 
 #info {
   float: right;
   font-size: 30px;
   color: #0a3641;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 150px;
+    row-gap: 15%;
+  }
+
+  .gridLeft p {
+    font-size: 20px;
+    margin-left: 2%;
+  }
+
+  #subTotal p {
+    font-size: 20px;
+  }
+  #total p {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
 }
