@@ -119,4 +119,8 @@ button:hover {
     width: 60%;
     display: block;
   }
+
+  form {
+    margin-left: -5%;
+  }
 }
