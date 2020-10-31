@@ -1,14 +1,9 @@
-html main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 main {
   text-align: center;
 }
 
 h1 {
   font-size: 80px;
-  font-weight: bold;
   color: #ff8f23;
   margin-top: 8%;
 }
@@ -30,7 +25,6 @@ h3 {
   font-size: 31px;
   color: #ff8f23;
   font-style: italic;
-  text-align: center;
 }
 
 #socialIcons {
@@ -56,10 +50,9 @@ h3 {
   }
   .social {
     font-size: 16px;
-    margin: 0;
+    margin: 5%;
   }
   .social p {
     font-size: 16px;
-    text-align: center;
   }
 }

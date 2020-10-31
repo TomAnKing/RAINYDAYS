@@ -1,3 +1,7 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #logo {
   height: 150px;
   width: auto;
@@ -25,7 +29,6 @@ nav a {
   color: #0a3641;
   font-size: 37px;
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {

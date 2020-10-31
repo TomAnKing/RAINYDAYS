@@ -17,15 +17,15 @@ h1 {
   margin-top: 8%;
 }
 
-#hiking {
-  width: 100%;
-  height: auto;
-}
-
 p {
   font-size: 30px;
   color: #0a3641;
   margin-top: 0;
+}
+
+#hiking {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (min-width: 200px) and (max-width: 1250px) {
@@ -41,6 +41,7 @@ p {
     font-size: 40px;
     margin-top: 11%;
   }
+
   p {
     font-size: 20px;
     color: #0a3641;
