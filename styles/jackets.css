@@ -1,9 +1,10 @@
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin-left: 15%;
   margin-right: 15%;
-  grid-column-gap: 10%;
+  grid-column-gap: 5%;
+  grid-row-gap: 5%;
 }
 
 h1 {
@@ -19,8 +20,10 @@ h1 {
 
 .product {
   float: left;
-  font-size: 20px;
+  font-size: 19px;
   color: #0a3641;
+  border: lightgray solid 1px;
+  padding: 5px;
 }
 
 .product img {
@@ -35,9 +38,10 @@ h1 {
 @media screen and (min-width: 200px) and (max-width: 1200px) {
   .gridContainer {
     display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 2%;
-    margin-right: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 3%;
+    margin-right: 3%;
+    grid-row-gap: 1%;
   }
 
   body h1 {
@@ -46,7 +50,7 @@ h1 {
   }
 
   .product p {
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 0;
   }
 }

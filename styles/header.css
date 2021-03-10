@@ -25,15 +25,15 @@ li {
 }
 
 nav a {
-  padding: 20px;
+  padding: 10px;
   color: #0a3641;
-  font-size: 37px;
+  font-size: 25px;
   text-decoration: none;
 }
 
 nav {
   text-align: right;
-  margin-right: 2%;
+  margin-right: 1%;
   margin-top: 2%;
 }
 
