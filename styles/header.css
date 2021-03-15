@@ -37,11 +37,18 @@ nav {
   margin-right: 1%;
   margin-top: 2%;
 }
+.navToggle {
+  display: none;
+}
 
 @media screen and (min-width: 200px) and (max-width: 1250px) {
   #logo {
     height: auto;
     width: 25%;
+  }
+
+  header {
+    height: 100px;
   }
 
   #logoLogin {
@@ -50,7 +57,59 @@ nav {
   }
 
   nav a {
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
+    display: block;
   }
+
+  nav {
+    display: none;
+    margin-top: 3em;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background: white; 
+    opacity: 0.8; 
+    border-radius: 5%;
+  }
+
+  .navToggle:checked ~ nav  {
+    display: block;
+  }
+
+  .navToggle {
+    display: none;
+  }
+
+  .navToggle-label {
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin-right: 1.5em;
+   margin-top: 1.5em;
+  }
+
+  .navToggle-label span,
+  .navToggle-label span::before,
+  .navToggle-label span::after {
+    display: block;
+    background: #0a3641;
+    height: 3px;
+    width: 2em;
+    position: relative;
+  }
+
+  .navToggle-label span::before,
+  .navToggle-label span::after {
+    content: "";
+  }
+
+  .navToggle-label span::before {
+   bottom: 7px;
+  }
+
+  .navToggle-label span::after {
+    top: 4px;
+  }
+
 }
