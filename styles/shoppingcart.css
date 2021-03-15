@@ -61,7 +61,7 @@
   margin-left: 3%;
 }
 
-button {
+.btn {
   background-color: #0a3641;
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,12 +69,8 @@ button {
   color: #ffffff;
   padding: 25px 32px;
   font-size: 40px;
-  width: 100%;
   border-radius: 50px;
-}
-
-button:hover {
-  cursor: pointer;
+  text-decoration: none;
 }
 
 #jacket {

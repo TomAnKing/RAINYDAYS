@@ -16,23 +16,19 @@ h1 {
   font-weight: normal;
   color: #0a3641;
   font-size: 37px;
+  margin-bottom: 60px;
 }
 
-button {
+.btn {
   background-color: #0a3641;
-  margin-top: 3%;
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   color: #ffffff;
   padding: 32px 32px;
   font-size: 37px;
-  width: 25%;
   border-radius: 50px;
-}
-
-button:hover {
-  cursor: pointer;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 200px) and (max-width: 1250px) {

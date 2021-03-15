@@ -1,4 +1,5 @@
 h1 {
+  margin-top: 110px;
   font-size: 80px;
   color: #0a3641;
   text-align: center;
@@ -97,6 +98,7 @@ p {
 @media screen and (min-width: 200px) and (max-width: 1250px) {
   h1 {
     font-size: 40px;
+    margin-top: 130px;
   }
 
   h2 {
@@ -121,6 +123,6 @@ p {
   .btn2 {
     text-align: center;
     font-size: 22px;
-    width: 60%;
+    width: 50%;
   }
 }

@@ -22,6 +22,7 @@ li {
 
 .current {
   font-weight: bold;
+  color: #ff8f23;
 }
 
 nav a {

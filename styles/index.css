@@ -17,22 +17,22 @@ h1 {
   font-size: 58px;
   font-weight: normal;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 3%;
 }
 
-button {
+.btn {
   background-color: #0a3641;
-  margin-top: 1%;
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   color: #ffffff;
-  padding: 15px 32px;
+  padding: 15px 75px;
   font-size: 54px;
-  width: 7em;
   border-radius: 50px;
+  text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
   cursor: pointer;
   opacity: 0.9;
 }
@@ -44,6 +44,7 @@ button:hover {
     color: #0a3641;
     font-size: 35px;
     font-weight: normal;
+    margin-bottom: 150px;
   }
 
   .btn {
