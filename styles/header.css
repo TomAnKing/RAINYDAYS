@@ -45,6 +45,7 @@ nav {
   #logo {
     height: auto;
     width: 25%;
+    margin-top: 1%;
   }
 
   header {
@@ -57,7 +58,7 @@ nav {
   }
 
   nav a {
-    font-size: 30px;
+    font-size: 20px;
     padding: 5px;
     display: block;
   }
@@ -69,8 +70,9 @@ nav {
     right: 0%;
     top: 0%;
     background: white; 
-    opacity: 0.8; 
     border-radius: 5%;
+    border: solid #0a3641 1px;
+    opacity: 0.9;
   }
 
   .navToggle:checked ~ nav  {
