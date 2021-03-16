@@ -32,6 +32,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #ff8f23;
+}
+
 nav {
   text-align: right;
   margin-right: 1%;
