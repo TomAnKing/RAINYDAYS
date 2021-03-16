@@ -79,6 +79,10 @@ nav {
     display: block;
   }
 
+  .navToggle-label:hover {
+    cursor: pointer;
+  }
+
   .navToggle {
     display: none;
   }
@@ -114,4 +118,7 @@ nav {
     top: 4px;
   }
 
+  ul {
+    margin-right: 40px;
+  }
 }
