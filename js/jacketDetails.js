@@ -1,4 +1,4 @@
-import { jackets } from "../js/register.js";
+import { jackets } from "../js/jacketArray.js";
 
 const jacketDetail = document.querySelector(".gridContainer");
 
