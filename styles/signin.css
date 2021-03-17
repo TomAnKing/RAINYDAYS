@@ -46,6 +46,14 @@ label[for="password"] {
   margin-left: 32%;
 }
 
+.form-error {
+  margin-left: 32%;
+  margin-bottom: 2%;
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
 .btn {
   background-color: #ff8f23;
   margin-top: 2%;

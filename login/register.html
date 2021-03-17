@@ -34,20 +34,38 @@
   <body>
     <main>
       <h1>Register</h1>
-      <form>
-        <label for="first name">First Name</label>
-        <input type="text" name="firstname" class="form__input" />
-        <label for="sir name">Sir Name</label>
-        <input type="text" name="sirname" class="form__input" />
-        <label for="email">Email</label>
+      <form id="registerForm">
+        <label for="first name">First Name (required)</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstName"
+          class="form__input"
+        />
+        <div class="form-error" id="firstNameError">
+          Please enter your first name
+        </div>
+        <label for="sir name">Sir Name (required)</label>
+        <input type="text" name="sirname" id="sirName" class="form__input" />
+        <div class="form-error" id="sirNameError">
+          Please enter your last name
+        </div>
+        <label for="email">Email (required)</label>
         <input type="email" name="email" id="email" class="form__input" />
-        <label for="password">Password</label>
+        <div class="form-error" id="emailError">
+          Please enter a valid email address
+        </div>
+        <label for="password">Password (minimum 8 characters)</label>
         <input
           type="password"
           name="password"
           id="password"
           class="form__input"
         />
+        <div class="form-error" id="passwordError">
+          Your password must be at least 8 characters
+        </div>
+        <button>Register</button>
       </form>
       <a href="../Jackets/shoppingcart.html">
         <button class="btn" style="text-align: center">Register</button>

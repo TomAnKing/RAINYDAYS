@@ -1,28 +1,27 @@
- jackets = [
-    {
-        name: "Black",
-        size: "M",
-        price: 2334,
-        gender: "female",
-        imageURL: "",
-    },
-    {
-        id: 0,
-        name: "Red",
-        size: "M",
-        gender: "Male",
-        price: 2334,
-        imageURL: "",
+import { jackets } from "../js/register.js";
+
+addJackets();
+
+function addJackets() {
+  const jacketContainer = document.querySelector(".gridContainer");
+
+  //jackets.sort((a,b) => a.price > b.price ? 1:-1);
+
+  jackets.forEach((jacket) => {
+    jacketContainer.innerHTML += `<a href="turquois.html?id=${jacket.id}">
+        <div class="product">
+        <img src=${jacket.imageURL} alt="${jacket.name} rain jacket">
+        <p>${jacket.name}<span><span class="price">${jacket.price},-</span></p>
+        </div>
+        </a>`;
+
+    if (jacket.gender === "female") {
+      jackestToShow.push(jacket);
     }
-]
+  });
+}
 
-const jackestToShow = [];
-
- jackets.forEach(jacket => {
-    if(jacket.gender === "female"){
-        jackestToShow.push(jacket);
-    }
-});
-
-
-
+function sortJackets() {
+  jackets.sort((a, b) => (a.price > b.price ? 1 : -1));
+  addJackets();
+}

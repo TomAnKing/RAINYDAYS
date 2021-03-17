@@ -69,6 +69,7 @@ span {
   padding: 12px 60px;
   font-size: 54px;
   border-radius: 50px;
+  pointer-events: none;
 }
 
 @media screen and (min-width: 200px) and (max-width: 1200px) {
