@@ -25,7 +25,6 @@
           <li><a href="Jackets/jackets.html">Jackets</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html" class="current">Contact</a></li>
-          <li><a href="login/signin.html">Sign In</a></li>
         </ul>
       </nav>
       <label for="navToggle" class="navToggle-label">
@@ -34,7 +33,19 @@
     </header>
     <main>
       <h1>Contact</h1>
-      <h2>Contact us on Info@RainyDays.com</h2>
+      <form id="contactForm">
+        <label for="email">Email (reguired)</label>
+        <input type="email" name="email" id="email" class="form__input" />
+        <div class="form-error" id="emailError">
+          Please enter a valid email address
+        </div>
+        <label for="subject">Subject (minimum 10 charachters)</label>
+        <input type="text" name="subject" id="subject" class="form__input" />
+        <div class="form-error" id="subjectError">
+          Your subject must be at least 10 characters
+        </div>
+        <button class="btn">Contact us</button>
+      </form>
       <h3>Visit us on social media</h3>
       <div class="social">
         <p>Facebook.com/RainyDays</p>
@@ -47,5 +58,6 @@
         <img src="twitter.png" alt="" />
       </div>
     </main>
+    <script src="js/contact.js"></script>
   </body>
 </html>

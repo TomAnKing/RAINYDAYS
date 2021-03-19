@@ -80,6 +80,14 @@ span {
     margin-top: 11%;
   }
 
+  .gridLeft {
+    margin-left: 20%;
+  }
+
+  .gridLeft a {
+    margin-left: -20%;
+  }
+
   #backbutton {
     font-size: 20px;
   }
