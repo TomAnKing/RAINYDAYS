@@ -8,10 +8,11 @@ h1 {
   margin-top: 8%;
 }
 
-h2 {
+#success {
   font-size: 37px;
   font-weight: normal;
-  color: #0a3641;
+  color: rgb(0, 173, 0);
+  display: none;
 }
 
 h3 {

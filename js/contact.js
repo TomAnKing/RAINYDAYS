@@ -3,6 +3,7 @@ const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const subject = document.querySelector("#subject");
 const subjectError = document.querySelector("#subjectError");
+const successMessage = document.querySelector("#success");
 
 function validateForm(event) {
   event.preventDefault();
@@ -24,6 +25,9 @@ function validateForm(event) {
   }
 
   if (success) {
+    successMessage.style.display = "block";
+  } else {
+    successMessage.style.display = "none";
   }
 }
 
