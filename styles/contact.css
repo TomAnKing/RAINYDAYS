@@ -45,6 +45,7 @@ input[type="email"] {
   width: 35%;
   margin-left: 32%;
   margin-top: 10px;
+  margin-bottom: 1%;
 }
 
 input[type="text"] {
@@ -98,6 +99,14 @@ button:hover {
   display: none;
 }
 
+#textArea {
+  height: 150px;
+  display: block;
+  width: 37%;
+  margin-left: 47.3%;
+  margin-top: 1%;
+}
+
 @media screen and (min-width: 200px) and (max-width: 1250px) {
   h1 {
     margin-top: 80px;
@@ -112,6 +121,7 @@ button:hover {
   h3 {
     font-size: 18px;
     margin: 0;
+    margin-top: 5%;
   }
   .social {
     font-size: 16px;
@@ -131,8 +141,9 @@ button:hover {
     width: 60%;
   }
 
-  input[type="text"] {
-    width: 60%;
+  #textArea {
+    width: 68%;
+    margin-left: 32%;
   }
 
   label[for="email"] {
@@ -145,5 +156,9 @@ button:hover {
 
   .form-error {
     font-size: 14px;
+  }
+
+  #success {
+    font-size: 20px;
   }
 }

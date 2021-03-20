@@ -35,13 +35,25 @@
       <h1>Contact</h1>
       <h2 id="success">Thank you for contacting us!</h2>
       <form id="contactForm">
-        <label for="email">Email (reguired)</label>
-        <input type="email" name="email" id="email" class="form__input" />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form__input"
+          placeholder="example@email.com"
+        />
         <div class="form-error" id="emailError">
           Please enter a valid email address
         </div>
-        <label for="subject">Subject (minimum 10 charachters)</label>
-        <input type="text" name="subject" id="subject" class="form__input" />
+        <label for="subject">Subject</label>
+        <textarea
+          type="text"
+          name="subject"
+          id="textArea"
+          class="form__input"
+          placeholder="Minimum 10 characters"
+        ></textarea>
         <div class="form-error" id="subjectError">
           Your subject must be at least 10 characters
         </div>
@@ -59,6 +71,7 @@
         <img src="twitter.png" alt="" />
       </div>
     </main>
+
     <script src="js/contact.js"></script>
   </body>
 </html>

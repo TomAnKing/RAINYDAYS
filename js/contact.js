@@ -1,7 +1,7 @@
 const form = document.querySelector("#contactForm");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const subject = document.querySelector("#subject");
+const subject = document.querySelector("#textArea");
 const subjectError = document.querySelector("#subjectError");
 const successMessage = document.querySelector("#success");
 

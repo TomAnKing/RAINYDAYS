@@ -34,32 +34,46 @@
     <main>
       <h1>Register</h1>
       <form id="registerForm">
-        <label for="first name">First Name (required)</label>
+        <label for="first name">First Name</label>
         <input
           type="text"
           name="firstname"
           id="firstName"
           class="form__input"
+          placeholder="Enter your first name"
         />
         <div class="form-error" id="firstNameError">
           Please enter your first name
         </div>
-        <label for="sir name">Sir Name (required)</label>
-        <input type="text" name="sirname" id="sirName" class="form__input" />
+        <label for="sir name">Sir Name</label>
+        <input
+          type="text"
+          name="sirname"
+          id="sirName"
+          class="form__input"
+          placeholder="Enter your sir name"
+        />
         <div class="form-error" id="sirNameError">
           Please enter your last name
         </div>
-        <label for="email">Email (required)</label>
-        <input type="email" name="email" id="email" class="form__input" />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form__input"
+          placeholder="example@email.com"
+        />
         <div class="form-error" id="emailError">
           Please enter a valid email address
         </div>
-        <label for="password">Password (minimum 8 characters)</label>
+        <label for="password">Password</label>
         <input
           type="password"
           name="password"
           id="password"
           class="form__input"
+          placeholder="Minimum 8 characters"
         />
         <div class="form-error" id="passwordError">
           Your password must be at least 8 characters
