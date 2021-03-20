@@ -67,7 +67,7 @@ label[for="password"] {
   margin-bottom: 2%;
   color: red;
   font-weight: bold;
-  //display: none;
+  display: none;
 }
 
 button {
