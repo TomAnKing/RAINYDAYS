@@ -68,6 +68,15 @@ label[for="password"] {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn2:hover {
+  opacity: 0.8;
 }
 
 .btn2 {
@@ -86,6 +95,7 @@ label[for="password"] {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
 }
 
 a {
@@ -122,11 +132,28 @@ p {
     margin-top: 4%;
     font-size: 25px;
     width: 60%;
+    margin-left: 22%;
   }
 
   .btn2 {
     text-align: center;
     font-size: 22px;
-    width: 50%;
+    width: 40%;
+  }
+
+  label[for="password"] {
+    font-size: 14px;
+  }
+
+  label[for="email"] {
+    font-size: 14px;
+  }
+
+  .form-error {
+    font-size: 14px;
+  }
+
+  form {
+    margin-left: -5%;
   }
 }

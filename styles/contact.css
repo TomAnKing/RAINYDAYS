@@ -82,6 +82,12 @@ button {
   border-radius: 50px;
   margin-left: 32%;
   margin-top: 2%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
 }
 
 .form-error {
@@ -127,5 +133,17 @@ button {
 
   input[type="text"] {
     width: 60%;
+  }
+
+  label[for="email"] {
+    font-size: 14px;
+  }
+
+  label[for="subject"] {
+    font-size: 14px;
+  }
+
+  .form-error {
+    font-size: 14px;
   }
 }

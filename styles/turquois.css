@@ -58,6 +58,11 @@ span {
   padding: 12px 60px;
   font-size: 54px;
   border-radius: 50px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
 
 .btn2 {

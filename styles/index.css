@@ -30,6 +30,7 @@ h1 {
   font-size: 54px;
   border-radius: 50px;
   text-decoration: none;
+  box-shadow: 1px 1px 10px rgba(1, 1, 1, 1);
 }
 
 .btn:hover {
