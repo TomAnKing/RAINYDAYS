@@ -28,7 +28,7 @@
   background-color: #ff8f23;
   border-bottom: solid 1px #000000;
   color: #ffffff;
-  font-size: 38px;
+  font-size: 28px;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -49,7 +49,7 @@
 #ordrBtn {
   text-align: center;
   border-top: solid 1px #000000;
-  padding: 13%;
+  padding-top: 13%;
 }
 
 .price {
