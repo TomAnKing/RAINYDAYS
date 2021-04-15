@@ -23,7 +23,7 @@ async function fetchJacket() {
     jacketDetail.innerHTML = `<div class="gridLeft">
     <div id="backbutton">
         <p>
-            <a href="jackets.html">Jackets ></a
+            <a href="testindex.html">Jackets ></a
             ><span> ${details.name}</span>
         </p>
     </div>
@@ -39,7 +39,7 @@ async function fetchJacket() {
         <p>${details.prices.price} kr</p>
         <p>Color: <span>${details.color}</span></p>
     </div>
-        <a href="shoppingcart.html?id=${details.id}" class="${
+        <a href="testshop.html?id=${details.id}" class="${
       details.is_in_stock ? "btn" : "btn2"
     }" style="text-align: center">
             ${details.is_in_stock ? "Add to cart" : "Out of stock"}

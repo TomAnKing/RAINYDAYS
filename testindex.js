@@ -13,7 +13,7 @@ async function addJackets() {
     jacketContainer.innerHTML = "";
 
     jackets.forEach((jacket) => {
-      jacketContainer.innerHTML += `<a href="turquois.html?id=${jacket.id}">
+      jacketContainer.innerHTML += `<a href="testdetails.html?id=${jacket.id}">
             <div class="product">
             <img src=${jacket.images[0].src} alt="${jacket.name} rain jacket">
             <p>${jacket.name}<span><span class="price">${jacket.prices.price},-</span></p>
