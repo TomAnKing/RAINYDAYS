@@ -37,7 +37,7 @@ async function fetchJacket() {
         <h1>${details.name} - Rain Jacket</h1>
     <div id="info">
         <p>${details.prices.price} kr</p>
-        <p>Color: <span>${details.color}</span></p>
+        <p>Color: <span>${details.sku}</span></p>
     </div>
         <a href="shoppingcart.html?id=${details.id}" class="${
       details.is_in_stock ? "btn" : "btn2"

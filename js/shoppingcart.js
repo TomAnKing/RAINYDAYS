@@ -27,7 +27,7 @@ async function fetchJacket() {
       <div id="info">
         <p><b>${details.name} - Rain Jacket</b></p>
         <p>${details.prices.price} kr.</p>
-        <p>Color: <b>${details.color}</b></p>
+        <p>Color: <b>${details.sku}</b></p>
       </div>
     </div>
     </div>
