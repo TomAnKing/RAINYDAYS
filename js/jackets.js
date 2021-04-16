@@ -8,6 +8,8 @@ async function addJackets() {
 
     const jackets = await response.json();
 
+    jackets.reverse();
+
     console.log(jackets);
 
     jacketContainer.innerHTML = "";

@@ -77,6 +77,23 @@ span {
   pointer-events: none;
 }
 
+.loader {
+  border: 16px solid white;
+  border-top: 16px solid #ff8f23;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  animation: spin 2s linear infinite;
+  margin-left: 40%;
+  margin-top: 15%;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (min-width: 200px) and (max-width: 1200px) {
   .gridContainer {
     display: grid;
@@ -123,5 +140,9 @@ span {
     margin-right: auto;
     width: 60%;
     padding: 10px 10px;
+  }
+
+  .loader {
+    margin-left: 25%;
   }
 }
