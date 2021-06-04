@@ -22,6 +22,7 @@ p {
 #hiking {
   width: 100%;
   height: auto;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
 }
 
 @media screen and (min-width: 200px) and (max-width: 1250px) {
