@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment</title>
+    <meta name="" content="Payment page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="styles/payment.css" />
+  </head>
+  <header>
+    <a href="../index.html"
+      ><img
+        id="logo"
+        src="../RainyDays_Logo.png"
+        alt="RainyDays Logo and home button"
+    /></a>
+    <input type="checkbox" id="navToggle" class="navToggle" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Jackets/jackets.html">Jackets</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <label for="navToggle" class="navToggle-label">
+      <span></span>
+    </label>
+  </header>
+  <body>
+    <main>
+      <h1>Checkout</h1>
+      <img src="images/visa.jpg" alt="visa and mastercard logo" />
+      <form id="paymentForm">
+        <label for="name">Card Holder Name</label>
+        <input
+          type="text"
+          id="name"
+          class="form_input"
+          placeholder="Min. 3 characters"
+        />
+        <div class="form-error" id="nameError">Please enter your name</div>
+        <label for="cardNumber">Card Number:</label>
+        <input
+          id="cardNumber"
+          type="tel"
+          inputmode="numeric"
+          placeholder="xxxx xxxx xxxx xxxx"
+          class="form_input"
+        />
+        <div class="form-error" id="cardNumberError">
+          Please enter your card number
+        </div>
+        <label for="expiryDate">Expiry Date</label>
+        <input
+          id="expiryDate"
+          type="tel"
+          inputmode="numeric"
+          placeholder="MM/YY"
+          class="form_input"
+        />
+        <div class="form-error" id="expiryDateError">
+          Please enter your expiry date
+        </div>
+        <label for="cvc">CVC</label>
+        <input
+          id="cvc"
+          type="tel"
+          inputmode="numeric"
+          placeholder="xxx"
+          class="form_input"
+        />
+        <div class="form-error" id="cvcError">Please enter CVC</div>
+        <button>Finish and pay</button>
+      </form>
+    </main>
+    <script src="js/payment.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+h1 {
+  margin-top: 110px;
+  font-size: 80px;
+  color: #0a3641;
+  text-align: center;
+}
+
+.form__input {
+  display: block;
+  color: #0a3641;
+}
+
+input {
+  padding: 15px;
+  width: 35%;
+  margin-left: 32%;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 20px;
+  color: #0a3641;
+  font-weight: bold;
+  margin-left: 32%;
+  margin-top: 30px;
+}
+
+.form-error {
+  margin-left: 32%;
+  margin-bottom: 2%;
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+button {
+  background-color: #ff8f23;
+  margin-top: 2%;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 18px 32px;
+  font-size: 22px;
+  width: 12em;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  width: 140px;
+  height: auto;
+  margin-left: 32%;
+  margin-bottom: 1%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1250px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 80px;
+  }
+
+  button {
+    text-align: center;
+    font-size: 14px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+
+  form {
+    margin-left: -5%;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  .form-error {
+    font-size: 14px;
+  }
+
+  img {
+    width: 90px;
+    height: auto;
+    margin-left: 28%;
+    margin-bottom: 1%;
+  }
+}

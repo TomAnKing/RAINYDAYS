@@ -62,7 +62,7 @@ label[for="password"] {
   font-weight: bold;
   color: #ffffff;
   padding: 18px 32px;
-  font-size: 54px;
+  font-size: 34px;
   width: 9em;
   border-radius: 50px;
   margin-left: auto;
@@ -87,8 +87,8 @@ label[for="password"] {
   font-weight: bold;
   color: #ff8f23;
   padding: 18px 32px;
-  font-size: 35px;
-  width: 10em;
+  font-size: 34px;
+  width: 8em;
   border-radius: 60px;
   border-width: 6px;
   border-style: solid;

@@ -68,8 +68,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   color: #ffffff;
-  padding: 25px 32px;
-  font-size: 40px;
+  padding: 20px 32px;
+  font-size: 30px;
   border-radius: 50px;
   text-decoration: none;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
@@ -85,6 +85,7 @@
   text-align: left;
   margin-top: 1.8%;
   margin-left: 1.8%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #info {

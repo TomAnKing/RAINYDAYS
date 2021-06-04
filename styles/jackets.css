@@ -24,6 +24,7 @@ h1 {
   color: #0a3641;
   border: lightgray solid 1px;
   padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .product img {
@@ -42,6 +43,21 @@ h1 {
   width: 160px;
   height: 160px;
   animation: spin 2s linear infinite;
+}
+
+h2 {
+  color: #ff8f23;
+  font-size: 22px;
+  margin-left: 15%;
+  bottom: 0;
+}
+
+.sortBtns {
+  margin-bottom: 1%;
+  margin-left: 15%;
+  color: #0a3641;
+  font-size: 18px;
+  margin-top: -15px;
 }
 
 @keyframes spin {
@@ -67,5 +83,20 @@ h1 {
   .product p {
     font-size: 14px;
     margin-top: 0;
+  }
+
+  h2 {
+    color: #ff8f23;
+    font-size: 16px;
+    margin-left: 5%;
+  }
+
+  .sortBtns {
+    margin-bottom: 1%;
+    margin-left: 4%;
+    color: #0a3641;
+    font-size: 12px;
+    margin-top: -12px;
+    display: inline-flex;
   }
 }

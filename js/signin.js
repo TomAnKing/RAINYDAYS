@@ -24,7 +24,7 @@ function validateForm(event) {
   }
 
   if (success) {
-    window.location.href = "../chekout.html";
+    window.location.href = "../payment.html";
   }
 }
 
