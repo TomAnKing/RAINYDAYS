@@ -18,6 +18,8 @@ async function fetchJacket() {
 
     jacketDetail.innerHTML = "";
 
+    document.title = `${details.name}`;
+
     jacketDetail.innerHTML = `<div class="gridLeft">
     <div id="backbutton">
         <p>
