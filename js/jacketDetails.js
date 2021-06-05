@@ -16,8 +16,6 @@ async function fetchJacket() {
 
     const details = await response.json();
 
-    console.log(details);
-
     jacketDetail.innerHTML = "";
 
     jacketDetail.innerHTML = `<div class="gridLeft">

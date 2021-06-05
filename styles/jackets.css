@@ -24,7 +24,6 @@ h1 {
   color: #0a3641;
   border: lightgray solid 1px;
   padding: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .product img {
@@ -98,5 +97,9 @@ h2 {
     font-size: 12px;
     margin-top: -12px;
     display: inline-flex;
+  }
+
+  label {
+    margin-right: 4%;
   }
 }

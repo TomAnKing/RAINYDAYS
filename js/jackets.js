@@ -19,7 +19,6 @@ async function addJackets() {
 
     jackets.sort((a, b) => (a.name > b.name ? 1 : -1));
 
-    console.log(jackets);
     buildHtml();
   } catch (error) {
     console.log("An error occured");
